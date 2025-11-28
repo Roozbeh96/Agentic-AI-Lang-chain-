@@ -50,7 +50,14 @@ ollama run llama3.1
 
 To exit from the Ollama, use `/bye` in macOs and `Ctrl+d` in window.<br>
 
-## 3. Connecting Langchain to llama
+
+## 3. AI Stack
+AI Stack: Collection of software, hardware, tools, and frameworks(models) used to build, deploy, and manage AI applications.
+<img src="Fig/AIStack1.png" alt="AIStack" width="100%"/><br>
+<img src="Fig/AIStack2.png" alt="AIStack" width="100%"/><br>
+
+
+## 4. Connecting Langchain to llama
 
 First, you  need to install `langchain` on the the virtual environment. In the terminal whre the `pyproject.toml` is locating, paste the following commands:
 ```bash
