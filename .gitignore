@@ -3,6 +3,7 @@ __pycache__/
 *.py[codz]
 *$py.class
 *.toml
+*.db
 
 # C extensions
 *.so

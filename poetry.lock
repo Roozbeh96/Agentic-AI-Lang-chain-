@@ -1182,6 +1182,22 @@ tenacity = ">=8.1.0,<8.4.0 || >8.4.0,<10.0.0"
 typing-extensions = ">=4.7.0,<5.0.0"
 
 [[package]]
+name = "langchain-experimental"
+version = "0.4.0"
+description = "Building applications with LLMs through composability"
+optional = false
+python-versions = "<4.0,>=3.10"
+groups = ["main"]
+files = [
+    {file = "langchain_experimental-0.4.0-py3-none-any.whl", hash = "sha256:50306e75218e3a3f002de3dd879d719addd6481284b1a282292fac46a130f4a1"},
+    {file = "langchain_experimental-0.4.0.tar.gz", hash = "sha256:16bb5c9810e1908c0e2d82cd000bb434bb437b8977507e4dbfe5f25800f431fd"},
+]
+
+[package.dependencies]
+langchain-community = ">=0.4.0,<1.0.0"
+langchain-core = ">=1.0.0,<2.0.0"
+
+[[package]]
 name = "langchain-ollama"
 version = "1.0.0"
 description = "An integration package connecting Ollama and LangChain"
@@ -3326,4 +3342,4 @@ cffi = ["cffi (>=1.17,<2.0) ; platform_python_implementation != \"PyPy\" and pyt
 [metadata]
 lock-version = "2.1"
 python-versions = "3.13.7"
-content-hash = "b5cbd3b18cad5d1636485a65ca9605c5f94e4e8b28a26f8f0ab6fc5613e0c0a1"
+content-hash = "2d5edf841f2fff2afec82f77e3e4e03708c0e9a2676d17e294b5362ec633f498"

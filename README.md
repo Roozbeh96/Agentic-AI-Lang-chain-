@@ -40,7 +40,7 @@ poetry new project_name
 
 ## 2. Download Ollama installer
 
-Ollama is like a car that you can use different engines(models) for your job[Ollama](https://ollama.com/download).<br>
+Ollama is like a car that you can use different engines(models) for your job [Ollama](https://ollama.com/download).<br>
 
 Then in the terminal, paste the following line to install the model on the Ollama.<br>
 
@@ -74,3 +74,6 @@ To install langchain, you should have python >=3.10. If you get error regarding 
 After installing the langchain, there is `sample.py` file in the `test` directory, that tested the connection of langchain with llama model installed locally by asking simple question in the prompt. The parameter `temperature` control randomness. Since we want to be precise, it should be zero. Ollama is running on the localhost `127.0.0.1 or localhost` with port number `11434`, so if you paste `curl 127.0.0.1:11434` in terminal, you will see Ollama is running.
 
 
+## 5. Transforming Excel to SQL DB
+
+Since Langchain is 
