@@ -53,8 +53,8 @@ To exit from the Ollama, use `/bye` in macOs and `Ctrl+d` in window.<br>
 
 ## 3. AI Stack
 AI Stack: Collection of software, hardware, tools, and frameworks(models) used to build, deploy, and manage AI applications.
-<img src="Fig/AIStack1.png" alt="AIStack" width="100%"/><br>
-<img src="Fig/AIStack2.png" alt="AIStack" width="100%"/><br>
+<img src="Fig/AIStack1.jpeg" alt="AIStack" width="100%"/><br>
+<img src="Fig/AIStack2.jpeg" alt="AIStack" width="100%"/><br>
 
 
 ## 4. Connecting Langchain to llama
